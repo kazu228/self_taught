@@ -8,3 +8,6 @@ class Dice:
 
     def shoot(self):
         return random.randint(1, self.face_num)
+
+a = Dice()
+print(a.shoot())

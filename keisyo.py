@@ -4,7 +4,7 @@ import turtle
 class Kame(turtle.Turtle):
     def __init__(self):
         super().__init__()  # 親クラスの__init__()をすべて呼び出してからshape()を書き換える super()は、親クラス
-        self.shape('turtle')
+        self.shape('turtle')  #親クラスにあるメソッドを子クラスで定義する時は、super().メソッドを記述する
 
 kame_test = Kame()
 kame_test.forward(100)

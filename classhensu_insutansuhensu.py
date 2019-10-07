@@ -14,3 +14,5 @@ print(e.kind)
 
 print(d.name)   #インスタンス変数は、インスタンスが個別に値をもつ
 print(e.name)
+
+print(Dog.kind)  #クラス変数は、インスタンス化をしなくても参照することができる

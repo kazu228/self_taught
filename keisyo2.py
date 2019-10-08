@@ -6,6 +6,6 @@ class A:
 class B(A):
     def spam(self):
        print('B')
-       super().spam()
+       super().spam()  #super()が基底クラスになってる。
 
-B().spam()
+B().spam()  
